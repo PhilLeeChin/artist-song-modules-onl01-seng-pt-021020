@@ -6,7 +6,7 @@ class Song
 
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
-  
+
   @@songs = []
 
   def initialize
@@ -24,7 +24,7 @@ class Song
   # def self.reset_all
   #   self.all.clear
   # end
-  # 
+  #
   # def self.count
   #   self.all.count
   # end
